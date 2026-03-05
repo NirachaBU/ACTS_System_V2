@@ -1,0 +1,20 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# API Keys and Secrets (สำคัญมาก!)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Data & Results (ไม่ต้องเอา PDF กับ Excel ส่วนตัวขึ้นไป)
+data/raw_pdf/
+*.xlsx
+*.csv
+
+# IDE settings
+.vscode/
+.idea/
